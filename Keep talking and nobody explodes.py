@@ -143,7 +143,7 @@ def keypad():
 		ƛ  Lambda, dinosaur, wishbone
 		Ω  Omega, omega
 		¶  Pilcrow, paragraph, sail, flag
-		ψ  Psi, trident, pitchfork, candle
+		ψ  Psi, trident, pitchfork, candle, cactus
 		¿  ?, Query, question mark
 		Ϭ  6, Shima, six
 		Ͼ  C, Sigma, dot C
@@ -170,7 +170,7 @@ def keypad():
 	elif(pads in ['!=', '#', 'Thousand', 'hashtag', "doesn't equal", 'Ae', 'ae', 'N', 'BW N', 'Omega', 'omega']):
 		print("Sixth column")
 	else:
-		if(pads in ['Psi', 'trident', 'pitchfork', 'candle']):
+		if(pads in ['Psi', 'trident', 'pitchfork', 'candle', 'cactus']):
 			print("Fifth column")
 		elif():
 			pass
