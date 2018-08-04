@@ -2,7 +2,6 @@ def simple_wires():
 	wires = input("Are there 3, 4, 5, or 6 wires?  ")
 	if (wires=='3'):
 		red = input("Are there red wires? Y/N  ")
-		#print(red)
 		if (red in ['Y', 'y', 'Yes', 'yes']):
 			lastWhite = input("Is the last wire white? Y/N  ")
 			if (lastWhite in ['Y', 'y', 'Yes', 'yes']):
@@ -176,6 +175,9 @@ def keypad():
 			pass
 		else:
 			pass
+def simon():
+	strikes = input("How many strikes do you have?  ")
+	vowels = input("Are there any vowels in your serial number? (aeiouy)")
 
 	
 def defuser():
