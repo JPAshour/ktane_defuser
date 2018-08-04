@@ -177,7 +177,30 @@ def keypad():
 			pass
 def simon():
 	strikes = input("How many strikes do you have?  ")
-	vowels = input("Are there any vowels in your serial number? (aeiouy)")
+	vowels = input("Are there any vowels in your serial number? (aeiouy) Y/N  ")
+	if (vowels in ['Y', 'y', 'Yes', 'yes']):
+		while True:
+			colors = input("What colors are flashing? (Y(ellow), R(ed), G(reen), B(lue))  ")
+			if (strikes == 0):
+				pass
+			elif (strikes == 1):
+				pass
+			elif (strikes == 2):
+				pass
+			else:
+				pass
+	if (vowels in ['N', 'n', 'No', 'no']):
+		while True:
+			if (strikes == 0):
+				pass
+			elif (strikes == 1):
+				pass
+			elif (strikes == 2):
+				pass
+			else:
+				pass
+	else:
+		print("Invalid input")
 
 	
 def defuser():
