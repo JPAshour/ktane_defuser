@@ -52,7 +52,7 @@ def simple_wires():
 			else:
 				print('Invalid input')
 	elif(wires=='5'):
-		lastBlack = input("Is the last wire black?  ")
+		lastBlack = input("Is the last wire black? Y/N  ")
 		odd = int(input("What is the last didgit in the serial number?  "))
 		if(lastBlack in ['Y', 'y', 'Yes', 'yes'] and odd % 2 != 0):
 			print("Cut the 4th wire")
